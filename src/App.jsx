@@ -1,10 +1,11 @@
-
+import useCurrencyInfo from "./hooks/useCurrencyInfo"
 function App() {
-
+  const data = useCurrencyInfo("usd");
+  console.log(data);
 
   return (
     <>
-      <h1 className="text-blue-500 text-4xl font-bold flex justify-center">Hello Arif</h1>
+      
     </>
   )
 }
